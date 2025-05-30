@@ -1,7 +1,4 @@
-# util-maximization
-Link to recording of meeting with the Professor.
-Note: Access requires a Berkeley email.
-
+# Utility Maximization
 
 ## Overview
 This repository explores exponential utility maximization in both simulated and real‐data settings. We start with a one‐period Black–Scholes model and constant liability, build up Monte‐Carlo and closed‐form comparisons, extend to multiple risk‐aversion parameters, simulate dynamic BSDE–style sample paths, then conclude with a time‐varying strategy applied to real NVDA historical returns.
@@ -15,7 +12,8 @@ Wealth at maturity:
 $$ X_T^{\pi} = x_0 + \pi \int_0^T \frac{dS_t}{S_t} = x_0 + \pi(\mu T + \sigma W_T) $$
 Liability: constant or random $F$. If random, we may assume $F \sim N(m_F, s_F^2)$.
 
-
+### Overall Research Report 
+Can be found [here](final_report.pdf).
 ## 🚀 Installation
 Clone the repo:
 
